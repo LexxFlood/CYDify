@@ -1,0 +1,24 @@
+# Arduino
+*.bin
+*.elf
+*.map
+build/
+
+# Python
+server/.env
+server/.venv/
+server/**/__pycache__/
+server/**/*.py[cod]
+server/data/*.json
+server/data/*.db
+server/data/*.db-*
+server/data/covers/
+server/data/lyrics/
+!server/data/.gitkeep
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
